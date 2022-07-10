@@ -4,5 +4,5 @@ jobs:
   run-shell-command:
     run-on: ubuntu latest
     steps:
-      -name: Echo a string
-       run: Echo "hello security gurus! this is our first github actions workflow file"
+      - name: Echo a string
+        run: echo "hello security gurus this is our first github actions workflow file"
